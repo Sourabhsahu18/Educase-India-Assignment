@@ -1,12 +1,35 @@
-# React + Vite
+# Educase India Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was built as part of the Educase India Frontend Developer assignment. It demonstrates frontend development skills using modern tools and best practices.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Developed a fully functional frontend application.
+- Built with clean, modular, and responsive design principles.
+- Emphasized code readability, performance optimization, and scalability.
+- Organized project structure following industry standards.
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Framework:** React.js
+- **Bundler:** Vite
+- **Language:** JavaScript (ES6+)
+- **Styling:** CSS 
+- **Version Control:** Git
+
+
+## 🛠️ Getting Started
+
+Follow the steps below to run the project locally:
+
+1. **Clone the repository**
+
+```bash
+git clone  https://github.com/Sourabhsahu18/Educase-India-Assignment.git
+
+
+npm install
+
+npm run dev
+
+
