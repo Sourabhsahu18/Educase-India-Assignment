@@ -24,12 +24,19 @@ Follow the steps below to run the project locally:
 
 1. **Clone the repository**
 
-```bash
-git clone [https://github.com/Sourabhsahu18/Educase-India-Assignment.git]
+  ```bash
+
+  https://github.com/Sourabhsahu18/Educase-India-Assignment.git
 
 
-## Install dependencies
+
+
+
+## Install the dependencies:
+
 npm install
+
+## To run the app locally:
 
 npm run dev
 
