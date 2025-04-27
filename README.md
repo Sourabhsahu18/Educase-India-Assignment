@@ -28,6 +28,7 @@ Follow the steps below to run the project locally:
  https://github.com/Sourabhsahu18/Educase-India-Assignment.git
 
 
+## Install dependencies
 npm install
 
 npm run dev
