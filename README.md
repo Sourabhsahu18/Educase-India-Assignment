@@ -29,15 +29,3 @@ Follow the steps below to run the project locally:
   https://github.com/Sourabhsahu18/Educase-India-Assignment.git
 
 
-
-
-
-## Install the dependencies:
-
-npm install
-
-## To run the app locally:
-
-npm run dev
-
-
