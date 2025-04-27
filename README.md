@@ -25,7 +25,7 @@ Follow the steps below to run the project locally:
 1. **Clone the repository**
 
 ```bash
-git clone  https://github.com/Sourabhsahu18/Educase-India-Assignment.git
+ https://github.com/Sourabhsahu18/Educase-India-Assignment.git
 
 
 npm install
