@@ -1,0 +1,108 @@
+
+/* Main container for account settings */
+.account-settings-container {
+    max-width: 400px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    min-height: 90vh;/* Full height layout for good structure */
+  }
+  
+  /* Header section */
+  .account-settings-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fff;
+    text-align: left;
+  }
+  
+  /* Heading inside header */
+  .account-settings-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Content area below the header */
+  .account-settings-content {
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Profile section container */
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  /* Container for profile image */
+  .profile-image-container {
+    position: relative;
+    margin-right: 15px;
+  }
+  /* Profile image styling */
+  .profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;/* Ensure image fits the frame */
+  }
+  /* Small badge over profile image (like a verified tick) */
+  .profile-badge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    background-color: #6a4fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f5f5f5;
+  }
+  /* Icon inside the badge */
+  .badge-icon {
+    color: white;
+    font-size: 12px;
+  }
+  
+  /* Profile name text */
+  .profile-name {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+  }
+  /* Profile email text */
+  .profile-email {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+/* Bio section separator and layout */
+  .profile-bio {
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px dashed #ddd;
+    text-align: left;
+    
+  }
+  /* Dashed separator line */
+  hr{
+    border: 0;
+    border-bottom: 2px dashed rgb(214, 208, 208)
+  }
+  /* Bio text styling */
+  .profile-bio p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #555;
+    font-weight: 500;
+  }

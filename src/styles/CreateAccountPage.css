@@ -1,0 +1,139 @@
+/* Base Styles */
+.create-account-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 20px;
+}
+
+.create-account-container {
+  background: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-account-header h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Form fields */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* Radio buttons */
+.radio-group {
+  margin-bottom: 20px;
+}
+
+.radio-label {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.radio-options {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-custom {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  margin-right: 8px;
+  position: relative;
+}
+
+.radio-container input:checked ~ .radio-custom::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #007bff;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.radio-text {
+  font-size: 16px;
+}
+
+/* Button */
+.signup-button {
+  width: 100%;
+  background: #007bff;
+  color: #fff;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-button:hover {
+  background: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .create-account-container {
+    padding: 20px;
+  }
+
+  .create-account-header h1 {
+    font-size: 24px;
+  }
+
+  .input-field {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .signup-button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
